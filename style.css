@@ -1,23 +1,23 @@
-.container{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    background-color: gray;
-}
-.flex-item{
-    flex-basis: 200px;
-    padding: 20px;
+body > .container {
     margin: 20px;
-    background-color: darkgrey;
-    font-size: 2rem;
-    font-family: sans-serif;
-    text-align: center;
+    padding: 20px;
+    border-style: none;
 }
-#ok{
-    color: red;
-    border: 2px solid red;
+.card > img{
+    margin: 0.8rem;
+    padding: 0.8rem;
+    height: 20vh;
+    object-fit: contain;
 }
-#cancel{
-    color: white;
-    background-color: black;
+@media screen and (max-width:1024px){
+    .logo{
+        width: 20rem;
+        margin-right: 2rem;
+    }
+}
+@media  screen and (min-width:1024px){
+    .logo{
+        width: 10rem;
+        margin-right: 2rem;
+    }
 }
